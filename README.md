@@ -30,11 +30,8 @@ Após descobrir qual é o id da cidade desejada, basta utilizar o campo ao lado 
 ![](https://github.com/thiagonogueiramgarcia/ApiClimaTempo/blob/main/Prints/Captura%20de%20tela%20de%202021-05-03%2011-49-21.png)
 
 IMPORTANTE:  
-<<<<<<< HEAD
 Utilizei para este projeto, usei uma conta gratuita, desta forma, a conta só permite registrar apenas uma cidade, e após um intervalo de 24 horas.
-=======
 Utilizei para este projeto, utilizei uma conta gratuita, desta forma, a conta só permite registrar apenas uma cidade, e após um intervalo de 24 horas.
->>>>>>> b6608daa1dbe34a8ff33c6c93e711234bf8963c2
 A mensagem que está na imagem, é o retorno da tentativa de registrar uma cidade dentro dentro do período de 24 horas.
 
 ![](https://github.com/thiagonogueiramgarcia/ApiClimaTempo/blob/main/Prints/Captura%20de%20tela%20de%202021-05-03%2011-49-29.png)
