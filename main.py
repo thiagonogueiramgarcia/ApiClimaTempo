@@ -9,18 +9,18 @@ class ConsultaApiJanela:
         self.janela = uic.loadUi('./Janelas/formClimaTempoApi.ui')
 
         self.janela.pushButtonConsultaCidade.clicked.connect(
-            lambda: FuncoesJanela.consulta_cidade(tetas))
+            lambda: FuncoesJanela.consulta_cidade(programa))
 
         self.janela.pushButtonRegistraId.clicked.connect(
-            lambda: FuncoesJanela.registra_cidade(tetas))
+            lambda: FuncoesJanela.registra_cidade(programa))
 
         self.janela.pushButtonConsulaTempo.clicked.connect(
-            lambda: FuncoesJanela.consulta_clima(tetas))
+            lambda: FuncoesJanela.consulta_clima(programa))
 
     def executar_janela(self):
         self.janela.show()
         self.app.exec()
 
 
-tetas = ConsultaApiJanela()
-tetas.executar_janela()
+programa = ConsultaApiJanela()
+programa.executar_janela()
